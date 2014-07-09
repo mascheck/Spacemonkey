@@ -1,0 +1,28 @@
+Build 6 (01.07.2014):
+- optimized asteroid generation
+
+Build 5 (30.06.2014):
+- Added restart button
+- optimized wall positioning
+- optimized asteroid generation
+- reduced threshold for tilt control
+- Fixed: Player can move down out of screen
+
+Build 4 (20.06.2014):
+- New grafics from gameartguppy.com
+- Round damage
+
+Build 3 (12.06.2014):
+- Restructured class CameraSetup
+- Restructured class GameSetup
+- Created own class for menu
+- Created own class for asteroid generation
+- bigger menu buttons
+- Changed folder structure
+
+Build 2 (10.06.2014):
+- Restructured Player class
+- Created PlayerControl class
+
+Build 1 (09.06.2014):
+- First stable build
