@@ -4,6 +4,8 @@ using System.Collections;
 public class GameSetup : MonoBehaviour
 {
     // ----- Constants -----
+    public const int CURRENT_BUILD = 6;
+
     // GameStatus
     public const int GAME_STATUS_MENU = 0;
     public const int GAME_STATUS_GAME = 1;

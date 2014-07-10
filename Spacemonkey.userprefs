@@ -1,10 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\src\scripts\CameraSetup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\src\scripts\Menu.cs">
     <Files>
-      <File FileName="Assets\src\scripts\AsteroidGenerator.cs" Line="1" Column="1" />
-      <File FileName="Assets\src\scripts\PlayerControl.cs" Line="1" Column="1" />
-      <File FileName="Assets\src\scripts\CameraSetup.cs" Line="13" Column="3" />
+      <File FileName="Assets\src\scripts\CameraSetup.cs" Line="1" Column="1" />
+      <File FileName="Assets\src\scripts\Menu.cs" Line="98" Column="106" />
+      <File FileName="Assets\src\scripts\GameSetup.cs" Line="68" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -94,6 +94,8 @@ public class Menu : MonoBehaviour
                 default:
                     goto case MENU_STATUS_MAIN;
             }
+            // Aktuelle Version
+            GUI.Label(new Rect(Screen.width / 2 - 35, Screen.height - 20, 70, 20), "Version: " + GameSetup.CURRENT_BUILD);
         }
     }
 
