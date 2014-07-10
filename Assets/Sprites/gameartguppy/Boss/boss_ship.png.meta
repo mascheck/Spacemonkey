@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: 875a8dfe99faae94c977fc13278b86cb
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: boss_ship
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -24,9 +26,9 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50

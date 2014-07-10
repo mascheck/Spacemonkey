@@ -14,6 +14,8 @@ public class AsteroidGenerator : MonoBehaviour {
     private int maxAsteroidsInARow;
     public float yOnLastGeneration = 0;
 
+	private float lengthPerLevel = 20f;
+
     // ----- Methods -----
 	// Use this for initialization
 	void Start () {
@@ -37,9 +39,15 @@ public class AsteroidGenerator : MonoBehaviour {
     }
 
     private float levelMultiplier() {
-        float result = gameSetup.getScore() / 10;
+        float score = gameSetup.getScore();
 
-        return gameSetup.getScore();
+		float result = (int)(score / lengthPerLevel);
+			if (!(result > 1)) {
+			result = 2;
+		}
+
+		result = maxAsteroidsInARow / result;
+		return result;
     }
 
     private GameObject ChoosePrefab() {
@@ -65,7 +73,7 @@ public class AsteroidGenerator : MonoBehaviour {
         if (currentY - yOnLastGeneration > 3)
         {
             float screenWidth = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0)).x; 
-            for (int i = 0; i < maxAsteroidsInARow; i++)
+            for (int i = 0; i < maxAsteroidsInARow - levelMultiplier(); i++)
             {
            
                 Instantiate(ChoosePrefab(), new Vector3((float)(screenWidth * 2f * (Random.value - 0.5)), (float)(currentY + 2 * (Random.value - 0.5)), 0), Quaternion.identity);

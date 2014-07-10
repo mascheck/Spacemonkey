@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: d5167c3929859a64d97b433861587b70
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: spaceflier_01_a
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -24,9 +26,9 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50

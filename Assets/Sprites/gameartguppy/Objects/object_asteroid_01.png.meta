@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: b31d2d02d0f863044847c110a1c684a9
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: object_asteroid_01
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -24,9 +26,9 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
